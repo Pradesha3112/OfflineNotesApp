@@ -29,12 +29,6 @@ A beautiful and feature-rich React Native mobile application that allows multipl
 - **Responsive design** - Optimized for mobile devices
 - **Dark/Light theme** - Consistent visual experience
 
-## 📸 App Screenshots
-
-| Login Screen | Sign Up Screen | Notes List | Create Note |
-|--------------|----------------|------------|-------------|
-| ![Login]() | ![SignUp]() | ![Notes]() | ![Create]() |
-
 ## 🚀 Getting Started
 
 ### Prerequisites

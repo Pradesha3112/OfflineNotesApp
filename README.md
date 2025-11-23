@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# Offline Multi-User Notes App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native mobile app that allows multiple users to create and manage notes offline.
 
-## Get started
+## Features Implemented
+- ✅ User authentication (Sign Up & Login)
+- ✅ Create, view, and delete notes
+- ✅ Offline storage using AsyncStorage
+- ✅ Multi-user support on same device
+- ✅ User-specific notes (each user sees only their notes)
+- ✅ Logout functionality
 
-1. Install dependencies
+## Screens
+- **Login Screen**: User authentication
+- **Sign Up Screen**: Create new user accounts
+- **Notes List Screen**: View all notes, create new notes, delete notes
+- **Create Note Screen**: Add new notes with title and body
 
+## Setup Instructions
+
+1. **Clone the repository**
    ```bash
-   npm install
-   ```
+   git clone [your-repository-url]
+   cd OfflineNotesApp
+Install dependencies
 
-2. Start the app
+bash
+npm install
+Start the development server
 
-   ```bash
-   npx expo start
-   ```
+bash
+npx expo start
+Run on Android
 
-In the output, you'll find options to open the app in a
+Install Expo Go app on your Android device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Scan the QR code from terminal
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Or use Android emulator
 
-## Get a fresh project
+Libraries Used
+React Native - Mobile app framework
 
-When you're ready, run:
+Expo - Development platform
+
+Expo Router - File-based navigation
+
+Async Storage - Local data persistence
+
+Expo Vector Icons - UI icons
+
+Test Users
+Any username/password combination works
+
+Data persists locally on device
+
+Multiple users can use the same app on same device
+
+text
+
+6. **Save the file**
+
+## Method 3: Use Visual Studio Code (if you have it)
 
 ```bash
-npm run reset-project
-```
+# Open project in VS Code
+code .
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Then create README.md file and paste the content

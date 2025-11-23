@@ -24,12 +24,13 @@ A React Native mobile app that allows multiple users to create and manage notes 
    cd OfflineNotesApp
 Install dependencies
 
-bash
+   ```bash
 npm install
+```
 Start the development server
-
-bash
+   ```bash
 npx expo start
+```
 Run on Android
 
 Install Expo Go app on your Android device
@@ -38,7 +39,7 @@ Scan the QR code from terminal
 
 Or use Android emulator
 
-Libraries Used
+##Libraries Used
 React Native - Mobile app framework
 
 Expo - Development platform
@@ -59,11 +60,3 @@ Multiple users can use the same app on same device
 text
 
 6. **Save the file**
-
-## Method 3: Use Visual Studio Code (if you have it)
-
-```bash
-# Open project in VS Code
-code .
-
-# Then create README.md file and paste the content

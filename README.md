@@ -224,21 +224,4 @@ If you have any questions or need help with the app:
 **⭐ Don't forget to star this repository if you found it helpful!**
 
 ---
-
-<div align="center">
-
-### Built with ❤️ using React Native & Expo
-
-</div>
-
-## 🚀 Deployment Status
-
-| Platform | Status | Download |
-|----------|--------|----------|
-| Android APK | ✅ Ready | [Download APK](https://github.com/Pradesha3112/OfflineNotesApp/releases) |
-| iOS | 🔄 In Progress | Coming Soon |
-| Web | ❌ Not Supported | - |
-
----
-
 **Note**: This app works completely offline - no internet connection required after installation! 🌐📴

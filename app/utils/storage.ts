@@ -78,3 +78,20 @@ export const saveNotesForUser = async (username: string, notes: any[]) => {
     console.error('Error saving notes:', e);
   }
 };
+// Add this to your existing storage functions
+export const saveImageForNote = async (username: string, noteId: string, imageUri: string) => {
+  try {
+    await AsyncStorage.setItem(`@image_${username}_${noteId}`, imageUri);
+  } catch (e) {
+    console.error('Error saving image:', e);
+  }
+};
+
+export const getImageForNote = async (username: string, noteId: string): Promise<string | null> => {
+  try {
+    return await AsyncStorage.getItem(`@image_${username}_${noteId}`);
+  } catch (e) {
+    console.error('Error getting image:', e);
+    return null;
+  }
+};
